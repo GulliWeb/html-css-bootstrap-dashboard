@@ -2,6 +2,25 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+/* Utils */
+
+
+.col .btn.btn-primary.bg-red{
+    background-color: red
+}
+
+.col .btn.btn-primary.bg-yellow{
+    background-color: gold;
+}
+
+.col .btn.btn-primary{
+    background-color: darkgreen;
+}
+
+.row.bg-gray{
+    background-color: lightgray;
+}
+
 /* Img */
 img{
     display: block;
@@ -10,11 +29,38 @@ img{
 
 /* Navbar page */
 .container-fluid figure{
-    width: 70px;
+    width: 60px;
     margin: 0  
 }
 
 /* Main */
 .container header > *{
     margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.col-title{
+    width: 70%;
+}
+
+main .col button {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#row-header h3{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.row h3{
+    font-size: 14px;
+}
+
+.col{
+    height: 45px;
+}
+
+.col-4{
+    justify-content: center;
 }
