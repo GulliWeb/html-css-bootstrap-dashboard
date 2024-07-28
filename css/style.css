@@ -3,8 +3,6 @@ body{
 }
 
 /* Utils */
-
-
 .col .btn.btn-primary.bg-red{
     background-color: red
 }
@@ -19,6 +17,12 @@ body{
 
 .row.bg-gray{
     background-color: lightgray;
+}
+
+.col{
+    border-bottom: 1px solid lightgray;
+    margin-top: 10px;
+    margin-bottom: 10px;;
 }
 
 /* Img */
@@ -64,3 +68,4 @@ main .col button {
 .col-4{
     justify-content: center;
 }
+
