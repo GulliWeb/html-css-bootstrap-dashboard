@@ -1,0 +1,11 @@
+/* Img */
+img{
+    display: block;
+    max-width: 100%;
+}
+
+/* Navbar page */
+.container-fluid figure{
+    width: 70px;
+    margin: 0  
+}
