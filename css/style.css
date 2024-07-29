@@ -15,14 +15,13 @@ body{
     background-color: darkgreen;
 }
 
-.row.bg-gray{
+.col.bg-gray{
     background-color: lightgray;
 }
 
-.col{
+.col {
     border-bottom: 1px solid lightgray;
-    margin-top: 10px;
-    margin-bottom: 10px;;
+  
 }
 
 /* Img */
@@ -61,11 +60,15 @@ main .col button {
     font-size: 14px;
 }
 
-.col{
-    height: 45px;
-}
+ .row >*{
+    padding: 10px;
+} 
 
 .col-4{
     justify-content: center;
 }
 
+.card h2{
+    font-weight: 300;
+    font-size: 22px;
+}
