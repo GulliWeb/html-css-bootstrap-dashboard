@@ -68,3 +68,15 @@ main .col button {
     font-weight: 300;
     font-size: 22px;
 }
+
+@media screen and (min-width: 992px) {
+    .container{
+        display: flex;
+    }
+
+    .card, ul {
+        margin-left: 50px;
+        padding: 0;
+    }
+    
+}
